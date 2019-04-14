@@ -7,6 +7,7 @@ a img {
 }
 h1, h2{
 	color: white;
+	font-size: 52px;
 }
 .baner {
 	background-color: rgb(105, 88, 89);
@@ -37,5 +38,5 @@ table{
 	margin: 1px;
 }
 body{
-	background-color: red;
+	background-color: green;
 }
