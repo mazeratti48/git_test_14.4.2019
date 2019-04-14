@@ -32,3 +32,10 @@ h1, h2{
 	height: 600px;
 	float: right;
 }
+table{
+	border: 1px;
+	margin: 1px;
+}
+body{
+	background-color: red;
+}
