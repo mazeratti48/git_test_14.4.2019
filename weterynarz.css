@@ -7,6 +7,7 @@ a img {
 }
 h1, h2{
 	color: white;
+	font-size: 32px;
 }
 .baner {
 	background-color: rgb(105, 88, 89);
@@ -36,6 +37,6 @@ table{
 	border: 1px;
 	margin: 1px;
 }
-body{
+body, div{
 	background-color: red;
 }
