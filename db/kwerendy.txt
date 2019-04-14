@@ -1,0 +1,28 @@
+- Zapytanie 1: MariaDB [weterynarz]> select imie, telefon, szczepienie, opis from zwierzeta;
++--------+-----------+-------------+-------------------+
+| imie   | telefon   | szczepienie | opis              |
++--------+-----------+-------------+-------------------+
+| Fafik  | 111222333 |        2016 | problemy z uszami |
+| Brutus | 222333444 |        2016 | zapalenie krtani  |
+| Saba   | 333444555 |        2015 | kroplowka         |
+| Alma   | 444555666 |        NULL | antybiotyk        |
+| Figaro | 555666777 |        NULL | problemy z uszami |
+| Dika   | 666777888 |        2016 | operacja          |
+| Fuks   | 888999111 |        2016 | antybiotyk        |
++--------+-----------+-------------+-------------------+
+7 rows in set (0.00 sec)
+
+ - Zapytanie 2: MariaDB [weterynarz]> select id, imie, wlasciciel from zwierzeta;
++----+--------+-----------------+
+| id | imie   | wlasciciel      |
++----+--------+-----------------+
+|  1 | Fafik  | Adam Kowalski   |
+|  2 | Brutus | Anna Wysocka    |
+|  4 | Saba   | Monika Nowak    |
+|  5 | Alma   | Jan Kowalewski  |
+|  6 | Figaro | Anna Kowalska   |
+|  7 | Dika   | Katarzyna Kowal |
+|  8 | Fuks   | Jan Nowak       |
++----+--------+-----------------+
+7 rows in set (0.00 sec)
+
